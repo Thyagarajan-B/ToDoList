@@ -1,0 +1,120 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h1 {
+  font-size: 24px;
+  color: #333;
+}
+
+button {
+  background-color: rgb(84, 84, 240);
+  font-size: 1.2rem;
+  padding: 10px;
+  font-weight: bold;
+  margin: 10px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+input {
+  width: 200px;
+  padding: 15px;
+}
+
+.input-container {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.task-input {
+  width: 250px;
+  padding: 10px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.task-input:focus {
+  border-color: #007bff;
+}
+
+.add-btn {
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.add-btn:hover {
+  background-color: #0056b3;
+}
+
+.task {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #ffffff;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  font-size: 18px;
+  color: #444;
+}
+
+.task:nth-child(odd) {
+  background: #e9ecef;
+}
+
+.task span {
+  flex: 1;
+  margin-left: 10px;
+  text-align: left;
+}
+
+.checkbox {
+  font-size: 20px;
+  color: #007bff;
+  cursor: pointer;
+}
+
+.delete-btn {
+  font-size: 20px;
+  color: red;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.delete-btn:hover {
+  color: darkred;
+}
+
+.no-records {
+  font-size: 20px;
+  color: #888;
+  margin-top: 20px;
+}
